@@ -1,13 +1,7 @@
-// File: next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [],
-    domains: [],
-  },
-  experimental: {
-    appDir: true,
+    unoptimized: true, // tắt tối ưu ảnh cho Vercel nếu dùng placeholder
   },
 };
-
 export default nextConfig;
