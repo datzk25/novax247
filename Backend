@@ -1,0 +1,13 @@
+DATABASE_URL="postgresql://user:password@localhost:5432/novax247"
+JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=7d
+SEPAY_API_KEY=your_sepay_key
+SEPAY_WEBHOOK_SECRET=your_webhook_secret
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_app_password
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_secret
+DISCORD_CLIENT_ID=your_discord_client_id
+DISCORD_CLIENT_SECRET=your_discord_secret
